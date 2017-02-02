@@ -12,6 +12,9 @@
 		119A2CAD1E429A71000B1660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119A2CAB1E429A71000B1660 /* Main.storyboard */; };
 		119A2CAF1E429A71000B1660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119A2CAE1E429A71000B1660 /* Assets.xcassets */; };
 		119A2CB21E429A71000B1660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119A2CB01E429A71000B1660 /* LaunchScreen.storyboard */; };
+		119A2CBC1E438180000B1660 /* gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119A2CBB1E438180000B1660 /* gold.jpg */; };
+		119A2CBE1E4385D9000B1660 /* silver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119A2CBD1E4385D9000B1660 /* silver.jpg */; };
+		119A2CC21E43870A000B1660 /* all.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 119A2CC11E43870A000B1660 /* all.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		119A2CAE1E429A71000B1660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119A2CB11E429A71000B1660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		119A2CB31E429A71000B1660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119A2CBB1E438180000B1660 /* gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gold.jpg; sourceTree = "<group>"; };
+		119A2CBD1E4385D9000B1660 /* silver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silver.jpg; sourceTree = "<group>"; };
+		119A2CC11E43870A000B1660 /* all.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = all.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		119A2CA61E429A71000B1660 /* SliderFixedIncrements */ = {
 			isa = PBXGroup;
 			children = (
+				119A2CC11E43870A000B1660 /* all.jpg */,
+				119A2CBD1E4385D9000B1660 /* silver.jpg */,
+				119A2CBB1E438180000B1660 /* gold.jpg */,
 				119A2CA71E429A71000B1660 /* AppDelegate.swift */,
 				119A2CA91E429A71000B1660 /* ViewController.swift */,
 				119A2CAB1E429A71000B1660 /* Main.storyboard */,
@@ -124,7 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				119A2CB21E429A71000B1660 /* LaunchScreen.storyboard in Resources */,
+				119A2CBC1E438180000B1660 /* gold.jpg in Resources */,
 				119A2CAF1E429A71000B1660 /* Assets.xcassets in Resources */,
+				119A2CC21E43870A000B1660 /* all.jpg in Resources */,
+				119A2CBE1E4385D9000B1660 /* silver.jpg in Resources */,
 				119A2CAD1E429A71000B1660 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +275,7 @@
 				DEVELOPMENT_TEAM = T6TG5W96HH;
 				INFOPLIST_FILE = SliderFixedIncrements/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lawrencem.slider.SliderFixedIncrements;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawrencem.SliderFixedIncrements;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,7 +288,7 @@
 				DEVELOPMENT_TEAM = T6TG5W96HH;
 				INFOPLIST_FILE = SliderFixedIncrements/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lawrencem.slider.SliderFixedIncrements;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawrencem.SliderFixedIncrements;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
